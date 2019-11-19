@@ -14,7 +14,11 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <ul>
+                        <li>
+                            <a href="{{ route('habits.index') }}">{{ __('habits.title') }}</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
